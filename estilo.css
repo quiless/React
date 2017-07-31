@@ -1,0 +1,33 @@
+body{
+    font-family: sans-serif;
+}
+
+#visor h1{
+    width: 540px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+    font-size: 31px;
+    margin: 0;
+    margin-right: 5px;
+    min-height: 37px;
+}
+
+#calculadora{
+    width: 540px;
+    background: #4682B4;
+    margin: auto;
+}
+
+.botao:nth-of-type(4n){
+    background: #4682B4;
+}
+
+.botao {
+    float: left;
+    width: 24.4%;
+    text-align: center;
+    background: #fff;
+    border: solid 1px #000;
+    cursor: pointer;
+}
